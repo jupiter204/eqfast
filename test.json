@@ -1,0 +1,477 @@
+{
+    "success": "true",
+    "result": {
+        "resource_id": "E-A0015-001",
+        "fields": [
+            {
+                "id": "ReportType",
+                "type": "String"
+            },
+            {
+                "id": "EarthquakeNo",
+                "type": "Integer"
+            },
+            {
+                "id": "ReportContent",
+                "type": "String"
+            },
+            {
+                "id": "ReportColor",
+                "type": "String"
+            },
+            {
+                "id": "Web",
+                "type": "String"
+            },
+            {
+                "id": "ReportImageURI",
+                "type": "String"
+            },
+            {
+                "id": "OriginTime",
+                "type": "Timestamp"
+            },
+            {
+                "id": "WaveImageURI",
+                "type": "String"
+            },
+            {
+                "id": "WaveImageURI",
+                "type": "String"
+            },
+            {
+                "id": "FocalDepth",
+                "type": "Float"
+            },
+            {
+                "id": "Location",
+                "type": "String"
+            },
+            {
+                "id": "EpicenterLatitude",
+                "type": "Float"
+            },
+            {
+                "id": "EpicenterLongitude",
+                "type": "Float"
+            },
+            {
+                "id": "AreaIntensity",
+                "type": "String"
+            },
+            {
+                "id": "IntScaleValue",
+                "type": "Float"
+            },
+            {
+                "id": "IntScaleValue",
+                "type": "Float"
+            },
+            {
+                "id": "IntScaleValue",
+                "type": "String"
+            },
+            {
+                "id": "IntScaleValue",
+                "type": "Float"
+            },
+            {
+                "id": "IntScaleValue",
+                "type": "Float"
+            },
+            {
+                "id": "unit",
+                "type": "String"
+            },
+            {
+                "id": "MagnitudeType",
+                "type": "String"
+            },
+            {
+                "id": "MagnitudeValue",
+                "type": "Float"
+            },
+            {
+                "id": "Source",
+                "type": "String"
+            },
+            {
+                "id": "AreaDesc",
+                "type": "String"
+            },
+            {
+                "id": "CountyName",
+                "type": "String"
+            },
+            {
+                "id": "InfoStatus",
+                "type": "String"
+            },
+            {
+                "id": "StationName",
+                "type": "String"
+            },
+            {
+                "id": "StationID",
+                "type": "String"
+            },
+            {
+                "id": "VComponent",
+                "type": "String"
+            },
+            {
+                "id": "NSComponent",
+                "type": "String"
+            },
+            {
+                "id": "EWComponent",
+                "type": "String"
+            },
+            {
+                "id": "IntScaleValue",
+                "type": "String"
+            },
+            {
+                "id": "ReportRemark",
+                "type": "String"
+            }
+        ]
+    },
+    "records": {
+        "datasetDescription": "\u5730\u9707\u5831\u544a",
+        "Earthquake": [
+            {
+                "EarthquakeNo": 113321,
+                "ReportType": "\u5730\u9707\u5831\u544a",
+                "ReportColor": "\u7da0\u8272",
+                "ReportContent": "04/23-11:44\u82b1\u84ee\u7e23\u58fd\u8c50\u9109\u767c\u751f\u898f\u6a214.0\u6709\u611f\u5730\u9707\uff0c\u6700\u5927\u9707\u5ea6\u82b1\u84ee\u7e23\u9e7d\u5bee3\u7d1a\u3002",
+                "ReportImageURI": "https://scweb.cwa.gov.tw/webdata/OLDEQ/202404/2024042311440240321_H.png",
+                "ReportRemark": "\u672c\u5831\u544a\u4fc2\u4e2d\u592e\u6c23\u8c61\u7f72\u5730\u9707\u89c0\u6e2c\u7db2\u5373\u6642\u5730\u9707\u8cc7\u6599\u5730\u9707\u901f\u5831\u4e4b\u7d50\u679c\u3002",
+                "Web": "https://scweb.cwa.gov.tw/zh-tw/earthquake/details/2024042311440240321",
+                "ShakemapImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/plotContour/2024/2024321i.png",
+                "EarthquakeInfo": {
+                    "OriginTime": "2024-04-23 11:44:02",
+                    "Source": "\u4e2d\u592e\u6c23\u8c61\u7f72",
+                    "FocalDepth": 7.1,
+                    "Epicenter": {
+                        "Location": "\u82b1\u84ee\u7e23\u653f\u5e9c\u5357\u5357\u897f\u65b9  20.6  \u516c\u91cc (\u4f4d\u65bc\u82b1\u84ee\u7e23\u58fd\u8c50\u9109)",
+                        "EpicenterLatitude": 23.81,
+                        "EpicenterLongitude": 121.57
+                    },
+                    "EarthquakeMagnitude": {
+                        "MagnitudeType": "\u82ae\u6c0f\u898f\u6a21",
+                        "MagnitudeValue": 4.0
+                    }
+                },
+                "Intensity": {
+                    "ShakingArea": [
+                        {
+                            "AreaDesc": "\u5357\u6295\u7e23\u5730\u5340",
+                            "CountyName": "\u5357\u6295\u7e23",
+                            "InfoStatus": "observe",
+                            "AreaIntensity": "1\u7d1a",
+                            "EqStation": [
+                                {
+                                    "StationName": "\u5967\u842c\u5927",
+                                    "StationID": "OWD",
+                                    "BackAzimuth": 111.62,
+                                    "EpicenterDistance": 43.37,
+                                    "SeismicIntensity": "1\u7d1a",
+                                    "StationLatitude": 23.955,
+                                    "StationLongitude": 121.176
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 1.71,
+                                        "NSComponent": 1.41,
+                                        "VComponent": 0.84,
+                                        "IntScaleValue": 1.61
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.05,
+                                        "NSComponent": 0.03,
+                                        "VComponent": 0.02,
+                                        "IntScaleValue": 0.05
+                                    },
+                                    "StationName": "\u5408\u6b61\u5c71",
+                                    "StationID": "WHF",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 140.49,
+                                    "EpicenterDistance": 47.88,
+                                    "SeismicIntensity": "1\u7d1a",
+                                    "StationLatitude": 24.143,
+                                    "StationLongitude": 121.273,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/1-WHF.gif"
+                                }
+                            ]
+                        },
+                        {
+                            "AreaDesc": "\u6700\u5927\u9707\u5ea63\u7d1a\u5730\u5340",
+                            "CountyName": "\u82b1\u84ee\u7e23",
+                            "AreaIntensity": "3\u7d1a",
+                            "EqStation": []
+                        },
+                        {
+                            "AreaDesc": "\u81fa\u4e2d\u5e02\u5730\u5340",
+                            "CountyName": "\u81fa\u4e2d\u5e02",
+                            "InfoStatus": "observe",
+                            "AreaIntensity": "1\u7d1a",
+                            "EqStation": [
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 0.84,
+                                        "NSComponent": 1.03,
+                                        "VComponent": 0.3,
+                                        "IntScaleValue": 1.24
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.02,
+                                        "NSComponent": 0.03,
+                                        "VComponent": 0.01,
+                                        "IntScaleValue": 0.03
+                                    },
+                                    "StationName": "\u68a8\u5c71",
+                                    "StationID": "FUSS",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 145.46,
+                                    "EpicenterDistance": 58.86,
+                                    "SeismicIntensity": "1\u7d1a",
+                                    "StationLatitude": 24.248,
+                                    "StationLongitude": 121.244,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/1-FUSS.gif"
+                                }
+                            ]
+                        },
+                        {
+                            "AreaDesc": "\u6700\u5927\u9707\u5ea61\u7d1a\u5730\u5340",
+                            "CountyName": "\u5357\u6295\u7e23\u3001\u81fa\u4e2d\u5e02",
+                            "AreaIntensity": "1\u7d1a",
+                            "EqStation": []
+                        },
+                        {
+                            "AreaDesc": "\u82b1\u84ee\u7e23\u5730\u5340",
+                            "CountyName": "\u82b1\u84ee\u7e23",
+                            "InfoStatus": "observe",
+                            "AreaIntensity": "3\u7d1a",
+                            "EqStation": [
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 14.82,
+                                        "NSComponent": 17.27,
+                                        "VComponent": 5.86,
+                                        "IntScaleValue": 14.76
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.55,
+                                        "NSComponent": 0.44,
+                                        "VComponent": 0.24,
+                                        "IntScaleValue": 0.58
+                                    },
+                                    "StationName": "\u9e7d\u5bee",
+                                    "StationID": "EYL",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 196.43,
+                                    "EpicenterDistance": 10.76,
+                                    "SeismicIntensity": "3\u7d1a",
+                                    "StationLatitude": 23.904,
+                                    "StationLongitude": 121.602,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/3-EYL.gif"
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 2.93,
+                                        "NSComponent": 14.84,
+                                        "VComponent": 2.16,
+                                        "IntScaleValue": 9.13
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.04,
+                                        "NSComponent": 0.3,
+                                        "VComponent": 0.03,
+                                        "IntScaleValue": 0.3
+                                    },
+                                    "StationName": "\u78ef\u5d0e",
+                                    "StationID": "EGC",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 12.23,
+                                    "EpicenterDistance": 11.66,
+                                    "SeismicIntensity": "3\u7d1a",
+                                    "StationLatitude": 23.708,
+                                    "StationLongitude": 121.548,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/3-EGC.gif"
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 17.71,
+                                        "NSComponent": 15.32,
+                                        "VComponent": 5.99,
+                                        "IntScaleValue": 9.55
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.27,
+                                        "NSComponent": 0.18,
+                                        "VComponent": 0.09,
+                                        "IntScaleValue": 0.28
+                                    },
+                                    "StationName": "\u897f\u6797",
+                                    "StationID": "ESL",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 90.72,
+                                    "EpicenterDistance": 13.27,
+                                    "SeismicIntensity": "3\u7d1a",
+                                    "StationLatitude": 23.812,
+                                    "StationLongitude": 121.442,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/3-ESL.gif"
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 21.21,
+                                        "NSComponent": 12.53,
+                                        "VComponent": 7.24,
+                                        "IntScaleValue": 22.2
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.65,
+                                        "NSComponent": 0.35,
+                                        "VComponent": 0.17,
+                                        "IntScaleValue": 0.71
+                                    },
+                                    "StationName": "\u9285\u9580",
+                                    "StationID": "ETM",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 154.98,
+                                    "EpicenterDistance": 19.03,
+                                    "SeismicIntensity": "3\u7d1a",
+                                    "StationLatitude": 23.966,
+                                    "StationLongitude": 121.493,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/3-ETM.gif"
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 9.26,
+                                        "NSComponent": 5.36,
+                                        "VComponent": 3.69,
+                                        "IntScaleValue": 7.89
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.31,
+                                        "NSComponent": 0.2,
+                                        "VComponent": 0.08,
+                                        "IntScaleValue": 0.33
+                                    },
+                                    "StationName": "\u6c34\u7489",
+                                    "StationID": "SHUL",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 20.04,
+                                    "EpicenterDistance": 2.72,
+                                    "SeismicIntensity": "2\u7d1a",
+                                    "StationLatitude": 23.788,
+                                    "StationLongitude": 121.563,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/2-SHUL.gif"
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 7.1,
+                                        "NSComponent": 6.34,
+                                        "VComponent": 2.13,
+                                        "IntScaleValue": 7.81
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.29,
+                                        "NSComponent": 0.2,
+                                        "VComponent": 0.08,
+                                        "IntScaleValue": 0.3
+                                    },
+                                    "StationName": "\u82b1\u84ee\u5e02",
+                                    "StationID": "HWA",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 193.17,
+                                    "EpicenterDistance": 18.76,
+                                    "SeismicIntensity": "2\u7d1a",
+                                    "StationLatitude": 23.975,
+                                    "StationLongitude": 121.614,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/2-HWA.gif"
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 2.21,
+                                        "NSComponent": 2.56,
+                                        "VComponent": 2.1,
+                                        "IntScaleValue": 2.46
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.08,
+                                        "NSComponent": 0.07,
+                                        "VComponent": 0.04,
+                                        "IntScaleValue": 0.09
+                                    },
+                                    "StationName": "\u5149\u5fa9",
+                                    "StationID": "EGFH",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 43.12,
+                                    "EpicenterDistance": 21.52,
+                                    "SeismicIntensity": "1\u7d1a",
+                                    "StationLatitude": 23.669,
+                                    "StationLongitude": 121.428,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/1-EGFH.gif"
+                                },
+                                {
+                                    "pga": {
+                                        "unit": "gal",
+                                        "EWComponent": 1.72,
+                                        "NSComponent": 2.25,
+                                        "VComponent": 0.36,
+                                        "IntScaleValue": 1.46
+                                    },
+                                    "pgv": {
+                                        "unit": "kine",
+                                        "EWComponent": 0.03,
+                                        "NSComponent": 0.04,
+                                        "VComponent": 0.01,
+                                        "IntScaleValue": 0.04
+                                    },
+                                    "StationName": "\u592a\u9b6f\u95a3",
+                                    "StationID": "ETL",
+                                    "InfoStatus": "observe",
+                                    "BackAzimuth": 187.66,
+                                    "EpicenterDistance": 38.98,
+                                    "SeismicIntensity": "1\u7d1a",
+                                    "StationLatitude": 24.159,
+                                    "StationLongitude": 121.623,
+                                    "WaveImageURI": "https://scweb.cwa.gov.tw/webdata/drawTrace/outcome/2024/2024321/1-ETL.gif"
+                                },
+                                {
+                                    "StationName": "\u897f\u5bf6",
+                                    "StationID": "ETLH",
+                                    "BackAzimuth": 168.23,
+                                    "EpicenterDistance": 44.92,
+                                    "SeismicIntensity": "1\u7d1a",
+                                    "StationLatitude": 24.207,
+                                    "StationLongitude": 121.482
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
