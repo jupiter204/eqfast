@@ -21,18 +21,19 @@ async def on_ready():
     print(f'{bot.user} ready on!!!')
     i = 30
     while True:
+        timestr = datetime.now(timezone(timedelta(hours=+8)))
         i += 1
         time, msg, area = eqfast.update(time)
         if msg != 0:
-            print(msg + '\n' + area)
+            print(f'{timestr}\tfast:第{time}號地震警報')
             await channel.send(f'{msg}\n{area}')
-            # await channel.send('test')
         if i >= 30:
             i = 0
             num, color, msg, image, weburl, depth, loc, mag = eqreport.get(num)
             if msg != 0:
+                print(f'{timestr}\treport:第{num}號有感地震報告')
                 embed = discord.Embed(title=f'第{num}號有感地震報告', color=color_list[color], url=weburl,
-                                      timestamp=datetime.now(timezone(timedelta(hours=+8))))
+                                      timestamp=timestr)
                 embed.add_field(name=msg, value='', inline=False)
                 embed.add_field(name='芮氏規模', value=mag, inline=True)
                 embed.add_field(name='震央深度', value=depth, inline=True)
